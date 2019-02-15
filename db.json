@@ -1,18 +1,167 @@
-{
-"valorSaldoTotal": {
-    "moeda": {
-        "unidade": "R$",
-        "name": "Real",
-        "id": "BRL"
-    },
-    "valor": 2000
-},
-"valorNecessarioParaConseguirRemunerar": {
-    "moeda": {
-        "unidade": "R$",
-        "name": "Real",
-        "id": "BRL"
-    },
-    "valor": 5200
-}
-}
+[
+    {
+        "id": 6290,
+        "nome": " ah remuneração",
+        "valorSaldoTotal": {
+            "moeda": {
+                "unidade": "R$",
+                "name": "Real",
+                "id": "BRL"
+            },
+            "valor": 2000
+        },
+        "valorNecessarioParaConseguirRemunerar": {
+            "moeda": {
+                "unidade": "R$",
+                "name": "Real",
+                "id": "BRL"
+            },
+            "valor": 5200
+        },
+        "contratos": [
+            {
+                "id": 22659,
+                "titulo": " Ah remuneração",
+                "valorBancoDeSaldoDoContrato": {
+                    "moeda": {
+                        "unidade": "R$",
+                        "name": "Real",
+                        "id": "BRL"
+                    },
+                    "valor": 2000
+                },
+                "valorNecessarioParaConseguirRemunerar": {
+                    "moeda": {
+                        "unidade": "R$",
+                        "name": "Real",
+                        "id": "BRL"
+                    },
+                    "valor": 5200
+                },
+                "notas": [
+                    {
+                        "id": 13,
+                        "nrNota": "11",
+                        "dataFaturamento": "2019-02-12T17:45:33.817",
+                        "funcionarioHoras": [
+                            {
+                                "id": 114,
+                                "nome": "Elloy Silveira de Mattos",
+                                "valorHora": {
+                                    "moeda": {
+                                        "unidade": "R$",
+                                        "name": "Real",
+                                        "id": "BRL"
+                                    },
+                                    "valor": 1300
+                                },
+                                "percentual": 80,
+                                "valorTotalRemuneracao": {
+                                    "moeda": {
+                                        "unidade": "R$",
+                                        "name": "Real",
+                                        "id": "BRL"
+                                    },
+                                    "valor": 2080
+                                },
+                                "valorTotalNecessarioParaRemunerar": {
+                                    "moeda": {
+                                        "unidade": "R$",
+                                        "name": "Real",
+                                        "id": "BRL"
+                                    },
+                                    "valor": 2600
+                                },
+                                "totalMinutos": 120,
+                                "horasTrabalhadas": [
+                                    {
+                                        "id": 97,
+                                        "idFuncionario": 0,
+                                        "qtdMinutos": 60,
+                                        "valorHora": {
+                                            "moeda": {
+                                                "unidade": "R$",
+                                                "name": "Real",
+                                                "id": "BRL"
+                                            },
+                                            "valor": 1300
+                                        },
+                                        "percentual": 80,
+                                        "dataFaturamento": "0001-01-01T00:00:00",
+                                        "funcionario": {
+                                            "id": 114,
+                                            "nome": null,
+                                            "valorHora": null,
+                                            "percentual": null,
+                                            "valorTotalRemuneracao": {
+                                                "moeda": {
+                                                    "unidade": "R$",
+                                                    "name": "Real",
+                                                    "id": "BRL"
+                                                },
+                                                "valor": 0
+                                            },
+                                            "valorTotalNecessarioParaRemunerar": {
+                                                "moeda": {
+                                                    "unidade": "R$",
+                                                    "name": "Real",
+                                                    "id": "BRL"
+                                                },
+                                                "valor": 0
+                                            },
+                                            "totalMinutos": 0,
+                                            "horasTrabalhadas": null
+                                        },
+                                        "lancamentoNota": null
+                                    },
+                                    {
+                                        "id": 98,
+                                        "idFuncionario": 0,
+                                        "qtdMinutos": 60,
+                                        "valorHora": {
+                                            "moeda": {
+                                                "unidade": "R$",
+                                                "name": "Real",
+                                                "id": "BRL"
+                                            },
+                                            "valor": 1300
+                                        },
+                                        "percentual": 80,
+                                        "dataFaturamento": "0001-01-01T00:00:00",
+                                        "funcionario": {
+                                            "id": 114,
+                                            "nome": null,
+                                            "valorHora": null,
+                                            "percentual": null,
+                                            "valorTotalRemuneracao": {
+                                                "moeda": {
+                                                    "unidade": "R$",
+                                                    "name": "Real",
+                                                    "id": "BRL"
+                                                },
+                                                "valor": 0
+                                            },
+                                            "valorTotalNecessarioParaRemunerar": {
+                                                "moeda": {
+                                                    "unidade": "R$",
+                                                    "name": "Real",
+                                                    "id": "BRL"
+                                                },
+                                                "valor": 0
+                                            },
+                                            "totalMinutos": 0,
+                                            "horasTrabalhadas": null
+                                        },
+                                        "lancamentoNota": null
+                                    }
+                                ]
+                            }
+                        ],
+                        "lancamentosFaturados": null
+                    }
+                ],
+                "lancamentosFaturados": null
+            }
+        ]
+    }
+]
